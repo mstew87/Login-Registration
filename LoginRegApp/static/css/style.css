@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(187, 180, 196);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body > h1 {
+  padding-left: 40%;
+}
+#log-reg {
+  padding: 50px;
+  display: flex;
+  padding-top: 50px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#log-reg > section {
+  border: 2px solid black;
+  padding: 50px;
+}
+li.error {
+  color: firebrick;
+}
+li.success {
+  color: forestgreen;
+}
+.form-control {
+  width: 300px;
+}
